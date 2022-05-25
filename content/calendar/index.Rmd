@@ -1,0 +1,55 @@
+---
+title: Calendar
+author: Ben Harden
+date: '2021-05-20'
+slug: []
+categories: []
+tags: []
+draft: no
+---
+
+Class period will be 12pm to 3pm daily (Eastern time). During this time you can expect the following structure
+
+```{r, echo = FALSE}
+knitr::kable(
+  tibble::tribble(~"Time", ~"Activity",
+                  "11:30", "Submit daily check-in survey",
+                  "12:00 - 12:30", "Whole group check-in",
+                  "12:30 - 2:00","Work block",
+                  "2:00 - 3:00","Whole group activity"))
+```
+
+There will be a super quick daily survey to fill in to let us know how you're getting on and what you might need help with. Please fill this out by 11:30am Eastern (or the evening before if you are on Pacific Time).
+
+The initial check in will be to see how folks are getting on, gather thoughts for what assistance people need, and possible play some review games.
+
+The work block is time for students to work independently or in groups on their level work. This is also the time instructors will be helping people in one-on-one or small group discussions.
+
+The daily 2pm-3pm window will be used for synchronous interactions. These will be posted to the PEP 2021 Google Calendar, but the following is a provisional list of topics.
+
+```{r, echo = F}
+knitr::kable(
+  tibble::tribble(~"Date         ", ~"Topic",~"Notes",
+                  "June 3", "Practice Discussion (Intro to R: Level 2)","Small group discussions",
+                  "June 4", "Temperature, Salinity and Density: Level 3","Small group discussions (scored)",
+                  "June 7", "Phytoplankton and Nutrients: Level 3", "Small group discussions (scored)",
+                  "June 8", "Carbon and Oxygen: Level 3", "Small group discussions (scored)",
+                  "June 9", "Reading a Paper: Level 3", "Small group discussions (scored)",
+                  "June 10", "A Changing Ocean: Level 3", "Small group discussions (scored)",
+                  "June 11", "Advanced topic #1", "Guest Speaker",
+                  "June 14", "No scheduled activity", "NA",
+                  "June 15", "Literature Review: Level 2", "Small group presentations (scored): 12:30pm-1:30pm",
+                  "June 15", "Advanced topic #2", "Guest Speaker",
+                  "June 16", "Advanced topic #3", "Guest Speaker",
+                  "June 17", "Advanced topic #4", "Guest Speaker",
+                  "June 18", "Juneteenth Holiday: No class", "",
+                  "June 21", "Scientific Poster: Level 2", "Class discussion: 12pm - 1pm",
+                  "June 21", "Data Discovery: Level 3", "Small group presentations (scored)",
+                  "June 22", "Advanced topic #4", "Guest Speaker",
+                  "June 23", "Team check-ins", "",
+                  "June 24", "Team check-ins", "",
+                  "June 25", "Scientific Poster: Level 3", "Poster presentation session (scored)",
+                  "June 28", "Scientific Talk: Level 3", "Individual talks (scored)"
+                  )
+)
+```

@@ -1,0 +1,66 @@
+---
+title: 'Sampling Plan'
+author: Ben Harden
+date: '2021-05-05'
+level: 4
+slug: []
+categories: []
+tags: []
+draft: no
+quiz: https://classroom.google.com/c/MzM4MTMyMTU4Mjgy/a/MzUwNzI3OTM1NDgz/details
+---
+
+There are other ways than using a shipboard CTD to measure Temperature and Salinity in the ocean. In this level you will explore a few of these and make a plan for how you might use them to study a particular ocean process.
+
+## Reading
+
+Have a look at the following tools:
+
+### Gliders
+
+There are a bunch of different types of gliders depending on who makes them. Don’t get bogged down in the details of each, they are more similar than they are different, just get the main messages.
+
+* <https://www.whoi.edu/main/spray-glider>
+* <https://apl.uw.edu/project/project.php?id=seaglider>
+* <https://oceanservice.noaa.gov/facts/ocean-gliders.html>
+
+### Argo
+
+There are a bunch of other drifting floats, but focus on the ARGOs as they profile for temperature and salinity.
+
+* <https://argo.ucsd.edu/>
+* <http://sciencelearn.org.nz/Contexts/The-Ocean-in-Action/Sci-Media/Video/How-Argo-floats-work>
+
+### Moorings
+
+Moorings can take on many different forms, but here are some resources that will hopefully give you a fair range. Focus on the similarities rather than 
+the specialties.
+
+* <https://www.whoi.edu/main/instruments/moorings-buoys>
+* <https://mclanelabs.com/mclane-moored-profiler/>
+
+### Satellite
+
+Satellites measure a bunch of stuff. Focus on Sea Surface Temperature and Sea Surface Salinity, but if you want to look into Sea Surface Height as well then go for it:
+
+* <http://science.nasa.gov/earth-science/oceanography/physical-ocean/>
+* <http://aquarius.nasa.gov/>
+* <https://earth.esa.int/documents/10174/950744/01_Friday_OCT13_Measure_SST.pdf>
+* <http://www2.hawaii.edu/~jmaurer/sst/>
+
+### Ships
+
+We've already talked a little about CTD measurements from ships. But here are a few more resources to learn about their capabilities. Ships come in many shapes and sizes so there are tons of places you could go online to find out about them. This is just a short list of places, but think about what makes them all similar.
+
+* <http://www.whoi.edu/ships/>
+* <http://oceanexplorer.noaa.gov/technology/vessels/vessels.html>
+* <http://www.researchvessels.org/about_ships.html>
+
+## Exercise
+
+You are investigating a new current recently discovered in the North Atlantic Ocean. You know that it is a deep current, not seen at the surface and is about 50 km wide and centered at 1000 m depth. It is flowing southward just off the shelf of the east coast of Greenland, but you don't know where it is coming from.
+
+Question: Which of the above tool(s) would you choose to investigate the origins of this current? What would be the strengths and limitations of that tool for this task? You should take into account the possible weather conditions in your study area.
+
+
+

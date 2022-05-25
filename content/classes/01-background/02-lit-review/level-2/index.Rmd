@@ -1,0 +1,39 @@
+---
+title: "Primary production in the vertical"
+author: Ben Harden
+date: '2021-05-05'
+level: 2
+slug: []
+categories: []
+tags: []
+draft: no
+quiz: https://classroom.google.com/c/MzM4MTMyMTU4Mjgy/a/MzQ5ODM0MjEzODkz/details
+---
+
+Primary production is usually limited by phytoplankton access to light and nutrients. So to understand where and when phytoplankton can grow, we need to explore where light and nutrients are in the ocean.
+
+## Reading
+
+Continue reading from [Segar](https://www.reefimages.com/oceansci.php):
+
+* [Chapter 12](https://www.reefimages.com/oceans/SegarOcean4Chap12.pdf): pg 296 (from "High Nutrient Low Chlorophyll") - 298 (up to "Food Webs").
+
+## Exercise
+
+Look at the following vertical profile of typical Nitrate for the various ocean basins.
+
+![from: The Oceans, Their Physics, Chemistry, and General Biology. New York:  Prentice-Hall,  c1942 1942. http://ark.cdlib.org/ark:/13030/kt167nb66r/](nitrate.gif)
+
+1. In what layers of the ocean do we typically find the least and most nitrate? Why is that?
+
+2. What differences are there between the major ocean basins and why do they exist?
+
+Below are measured vertical profiles of phytoplankton and light in the ocean, somewhere in the Sough Pacific.
+
+![](light-phyto.png)
+
+3. Describe and explain the shape of the light graph.
+
+4. Describe the phytoplankton graph. Using what you know about typical nutrient availability, explain why the phytoplankton are growing where they are.
+
+Respond to these questions and submit to Google Classroom by following the link below. Wait for feedback before moving on to [level 3](../level-3/).

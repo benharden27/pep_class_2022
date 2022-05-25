@@ -1,0 +1,57 @@
+---
+title: 'Ocean Cross-sections'
+author: Ben Harden
+date: '2021-05-05'
+level: 3
+slug: []
+categories: []
+tags: []
+draft: no
+---
+
+Now we're going to explore the different physical properties of the ocean across an entire basin - the North Atlantic. We're going to see how the ocean is not just a stack of waters of different densities, but that these densities actually drive movement in the ocean on a global scale.
+
+## Reading
+
+### Ocean Cross Sections
+
+Up to this point, we've been looking at ocean profiles: these are one-time measurements often from a ship where we lower a device through the ocean to see the vertical distribution of, in our cases, temperature, salinity and density. If we then take the ship, move it a little, and take another profile we can begin to create a cross section. The following video shows that process for a line down the middle of the North Atlantic Ocean.
+
+<iframe title="vimeo-player" src="https://player.vimeo.com/video/548492851" width="800" height="450" frameborder="0" allowfullscreen></iframe>
+
+Interpreting sections is a little different to interpreting profiles. Depth is still on the y axis with the surface at the top and the deep ocean at the bottom. But now the x axis is distance along the line that the ship has traveled. The property measured (in the above case, temperature) is shown as colors. You may also 
+
+When we look at a cross-section, we almost always also have to show a map to allow people to know what part of the ocean we are slicing. 
+
+### Water masses and Thermohaline Circulation
+
+Water masses are regions of water that share the same temperature and salinity properties. They are usually identified by their origin near the surface. For example, North Atlantic Deep Water is water that can be found thoughout much of the deep ocean with a temperature and salinity fingerprint of ~2°C and ~34.9 g/kg.
+
+Thermohaline circulation is the large-scale motion of water around the planet driven by density differences between these water masses.
+
+The following is a video I made on a voyage up the East Coast of Greenland in 2013. It includes a basic thermohaline circulation experiment to demonstrate the basic ideas of how density can drive motion.
+
+<iframe title="vimeo-player" src="https://player.vimeo.com/video/46944329" width="800" height="450" frameborder="0" allowfullscreen></iframe>
+
+This is all a bit of a simplification - for more detailed information, read [this introduction](https://www.e-education.psu.edu/earth103/node/847) to circulation in the North Atlantic.
+
+## Exercise
+
+Look at the following cross sections of the ocean from north-south down the Atlantic Ocean. Take some time to ensure you have a good handle on what the figures are showing on the x and y axes and the color scales. Look at the map to orient yourself - the left hand edge of the cross sections are the *southern* end of the line on the map.
+
+<div class="full-width">
+![](woce_sections.png)
+</div>
+
+Think about the following questions which we will discuss in a Socratic Seminar in class:
+
+* What features/water masses in these sections do you recognize from the readings and what are their core properties?
+* What feature do not fit with your understanding? In what ways do these sections show ways in which the readings are simplifications of the real ocean.
+* What other measurements would be useful to help fully grasp the picture of circulation in the North Atlantic?
+
+## Next Steps
+
+Once you've completed your discussion, please click to "Level Complete" button below to reflect on your discussion.
+
+Then please wait for feedback on your Socratic Seminar. Level 3 is scored. If you score 6 or more, you can move on to [Level 4](../level-4/) if you wish. If not, you can accept your score and move on to another topic or you can review the content and discussion you just had and submit a written response to the questions above.
+

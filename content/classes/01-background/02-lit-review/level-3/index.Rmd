@@ -1,0 +1,46 @@
+---
+title: 'Global Distribution'
+author: Ben Harden
+date: '2021-05-05'
+level: 3
+slug: []
+categories: []
+tags: []
+draft: no
+---
+
+We've looked at some of the factors that influence phytoplankton growth: primarily their access to light and nutrients. We're now going to explore how that changes around the planet.
+
+## Reading
+
+The following is a brief explanation of some of the processes that impact phytoplankton growth around the world, primarily mid-latitude seasonality, upwelling/downwelling, and terrestrial sources.
+
+<div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/557703782?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="scripting.mp4"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+The slides for that video are also available on the Google Classroom.
+
+## Exercise
+
+Let's apply some of these idea to a global map of phytoplankton distribution. The following is an figure produced by a satellite that can map surface quantities of phytoplankton by measuring the color of the ocean. This particular map is an average of three years of measurements so averages through all seasons of the year.
+
+Green/yellow/red colors indicate more pythoplankton and blue/purple show less phytoplankton.
+
+<div class = "full-width">
+![](surface_phyto.jpg)
+</div>
+
+Prepare for a group discussion about this figure. Think about:
+
+1. Where are phytoplankton found in large amounts? Where are there fewer?
+
+2. Which of the processes described above could explain the patterns you are seeing in different regions?
+
+** The following map/question is not a required part of the discussion, but could be of interest to some **
+
+The following is a map of surface nitrate:
+
+<div class = "full-width">
+![from: WOCE atlas](surf-nitrate.png)
+</div>
+
+3. How well does the map of surface nitrate predict the amount of phytoplankton in the global map? 

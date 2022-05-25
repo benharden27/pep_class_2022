@@ -1,0 +1,38 @@
+---
+title: 'Project Proposal'
+author: Ben Harden
+date: '2021-05-05'
+level: 3
+slug: []
+categories: []
+tags: []
+draft: no
+---
+
+In this level, you are going to be making a case for conducting research to study one of the topics on the factsheets you made in Level 2. This is a pretty common thing to have to do in science - maybe you're writing a paper and you need to convince the reader that this work is worthwhile, maybe you're asking for money and need to encourage a funder, or maybe you're visiting a six-grade classroom and want to inspire the next generation of thinkers to help solve th big societal issues.  Either way, you need to make a case for why your work is important.
+
+## Reading 
+
+Below are links to the fact sheets you all made in groups this week. You should read these over and decide which topic you think you can make the best case for. You do not need to pick the topic you've already researched, but you can do if you wish. Please let me know when you've picked your topic so we can assign groups accordingly - use the link below the factsheets.
+
+* [Expanding Oxygen Minimum Zones](expanding_omzs.pdf)
+* [Thermohaline Circulation Slowdown](thermohaline_slowdown.pdf)
+* [Coral Bleaching](coral_bleaching.pdf)
+* [Ocean Acidification](ocean_acidification.pdf)
+* [Marine Heat Waves](marine_heat_waves.pdf)
+
+<div class = "exit-button">
+   <a href="https://docs.google.com/forms/d/e/1FAIpQLScHG8yUEK5_r-j9DO3JtvxvedmbyUejpvMc2Agw6OpJ0GEgvQ/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer" class="w3-button w3-green">Choose Topic</a>
+</div>
+
+
+## Discussion
+
+You will be put into small groups as usual. This time, your goal is to make the case for why you should receive the illustrious Harden prize (a slick $1,000,000) to go and investigate this process further. Some things you should consider when preparing your case:
+
+* What is the importance of this process - why should we care?
+* How well understood is the process - what more needs to be done?
+* How does it compare to other topics that others might be pitching - why yours not others?
+* What questions might you ask of other topic advocates?
+
+Remember, this will still be a discussion, not just presenting in turns. Think about how to engage everyone and what kinds of questions you might ask to help them explain their topic (or compare and contrast it with yours).

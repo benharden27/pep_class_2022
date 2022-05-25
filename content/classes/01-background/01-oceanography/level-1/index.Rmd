@@ -1,0 +1,34 @@
+---
+title: "General Concepts"
+author: Ben Harden
+date: '2021-05-05'
+level: 1
+slug: []
+categories: []
+tags: []
+draft: no
+quiz: https://docs.google.com/forms/d/e/1FAIpQLScaSymlRlg-nFpQ4cFIdFQaY8RncpyRf0ZLHSOlqk2N01OcOA/viewform?usp=sf_link
+quiz_text: "Test Your Understanding"
+---
+
+Physical Oceanography is the study of how water moves. This includes ocean currents, waves and large scale ocean circulation. Some of the most fundamental ideas revolve around the key physical properties of the water: Temperature, Salinity and Density. We will explore these properties and how they allow or limit movement of water in the ocean.
+
+## Reading
+
+Read the following from [Segar](https://www.reefimages.com/oceansci.php):
+
+- [Chapter 1](https://www.reefimages.com/oceans/SegarOcean4Chap01.pdf):
+    + Introduction (pg. 1-2)
+    + The Oceans and Earth's Environment (pg. 2-6). These sections are less explicitly about physical oceanography, but provide a good overview and motivation for studying the ocean.
+- [Critical Concepts](https://www.reefimages.com/oceans/SegarOcean4CritCon.pdf) 1 and 6. These cover the key ideas that relate temperature and salinity (and pressure) to density
+- [Chapter 7](https://www.reefimages.com/oceans/SegarOcean4Chap07.pdf): 
+    + Water and Heat Budgets (pg. 147-149)
+    + Climate and Ocean Surface Water Properties (pg. 154-157). These sections covers the input and removal of heat and water from the ocean.
+
+Check out this video about the impact of salinity on density and how that creates stratification.
+
+<iframe src="https://player.vimeo.com/video/424923752" width="800" height="450" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+## Test Your Understanding
+
+Take the following quiz to test your understanding. Score 5 or more to move on to [Level 2](../level-2). Once you're done with the quiz, click the "Level Complete" button to tell your instructors that you've completed the level.

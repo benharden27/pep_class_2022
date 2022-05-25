@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+{{ partial "header.html" . }}
+
+<body>
+	<div class="container wrapper list">
+		{{ partial "head.html" . }}
+
+	
+		
+		{{ .Content }}
+		
+		<div class = "exit-button clearfix">
+        <a href="https://docs.google.com/spreadsheets/d/1GAB9QaVKly3zF5kIgzQJEPNk_GXYyEcbsZslqJgY76w/edit?usp=sharing" target="_blank" rel="noopener noreferrer" class="w3-button w3-green float-right">Progress Tracker</a>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLScZoKgLz-ey-MJ2KEyzyW7ByYkDt6C2VwkaEcpj4q4m5LTobw/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer" class="w3-button w3-blue">Daily Check-in (by 11:30am)</a>
+      </div>
+		
+
+    <div class="w3-bar w3-light-gray">
+      {{ range sort .Sections ".Params.weight"}}
+        <button class="w3-bar-item w3-button" onclick="openSection({{ lower (replace .Title " " "-")}})">{{ .Title }}</button>
+      {{ end }}
+    </div>
+    
+      {{ range sort .Sections ".Params.weight"}}
+        
+        <div class = "section-tab" id = {{ lower (replace .Title " " "-")}} style = "display: {{ if eq (lower (replace .Title " " "-")) "oceanography"}}inline{{else}}none{{end}}">
+        
+        {{ range sort .Sections ".Params.weight"}}
+        {{ if gt (len .Pages) 0 }}
+          <h4> {{ .Title }}</h4>
+        
+          <div class="grid">
+            {{ range sort .Pages ".Params.level" }}
+              <a href="{{ .Params.ExternalLink | default .RelPermalink }}">
+                <div class="level">
+                  <h4 class = "gt">Level {{ .Params.level }}:</h4>
+                  <h4 class = "lt">{{ .Title }}</h4>
+                </div>
+              </a>
+            {{ end }}
+          </div>
+          {{end}}
+        {{ end }}
+        </div>
+      {{ end }}
+
+		
+<script>
+function openSection(sectionName) {
+  var i;
+  var x = document.getElementsByClassName("section-tab");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  document.getElementById(sectionName).style.display = "block";  
+}
+</script>
+	{{ partial "footer.html" . }}
+</body>
+
+</html>

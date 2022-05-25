@@ -1,0 +1,35 @@
+---
+title: 'Sampling Seasonal Development'
+author: Ben Harden
+date: '2021-05-05'
+level: 4
+slug: []
+categories: []
+tags: []
+draft: no
+quiz: https://classroom.google.com/c/MzM4MTMyMTU4Mjgy/a/MzU2NjYyNjM4NTQ5/details
+---
+
+Phytoplankton blooms occur in large areas of the North Atlantic in Spring.
+
+![](spring_bloom.png)
+
+In the winter, phytoplankton receive too little light and the cold winds are mixing them far below the photic zone meaning their growth is further inhibited. Fortunately, all that winter mixing has stirred up nutrients from the deeper ocean and moved them towards the surface. As the surface temperatures warm and a thermocline develops, phytoplankton become trapped in the photic zone with lots of nutrients. They can then rapidly grow and reproduce to form a spring bloom. This lasts until the nutrients are exhausted in the next couple of months.
+
+This process can be patchy and doesn't happen everywhere at the same time. Satellites can capture these bloom patterns though in near real-time.
+
+![](bloom_image.jpg)
+
+## Exercise
+
+You are a scientist planning to sample a spring bloom in the North Atlantic. You would ideally like to see the process from the initial mixed water column all the way through the rapid phytoplankton growth to the conclusion of the bloom.
+
+You have just won a massive science award from benefactors too rich for their own good. They want to fund your study of the bloom and are looking for a proposal to describe to them how you intend to do it.
+
+You should write a one-page summary proposal which discusses the following:
+
+* What [platform](../../01-physical-oceanography/level-4/) will you use (ship? gliders? satellites? combo?)
+* How long will you need to sample for and how frequently?
+* What measurements will you need to make and where (both in the horizontal and vertical)?
+* How will you know where to sample for the bloom in real-time?
+* What limitations are you likely to come up against in your mission?

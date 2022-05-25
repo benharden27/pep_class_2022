@@ -1,0 +1,34 @@
+---
+title: "Dissolving Gases"
+author: Ben Harden
+date: '2021-05-05'
+level: 1
+slug: []
+categories: []
+tags: []
+draft: no
+quiz: https://docs.google.com/forms/d/e/1FAIpQLSfy6VcYs9SxPAU0M_7L0GFSYdjKeIN79vMiwbNLWkw5YKIlrA/viewform?usp=sf_link
+quiz_text: "Test Your Understanding"
+---
+
+Chemical Oceanography is concerned with the the study of the interaction of dissolved ions, molecules, and gases in the ocean. This is a very diverse field. In this module we will be exploring the basics of oxygen and carbon in the ocean.
+
+## Reading
+
+Read the following from [Segar](https://www.reefimages.com/oceansci.php):
+
+- [Chapter 5](https://www.reefimages.com/oceans/SegarOcean4Chap05.pdf): 
+  * The Dissolving Power of Water (pg. 94-95)
+  * Sources and Sinks of Chemicals Dissolved in Seawater (pg. 95-96)
+  * Salinity (pg. 96-97)
+  * Dissolved Chemicals in Seawater (pg. 97-101)
+
+And a video describing how gases dissolve in water
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/tkQGHTdLkd4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Test your understanding
+
+Take the following quiz to check your understanding. You can move on to [Level 2](../level-2/) if you get 4 or more correct. If not, please review the content, ask your peers for help, and retake quiz.
+
+Once you're done with the quiz, click the "Level Complete" button to tell your instructors that you've completed the level.

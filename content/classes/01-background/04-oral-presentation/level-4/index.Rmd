@@ -1,0 +1,22 @@
+---
+title: 'Plan fieldwork'
+author: Ben Harden
+date: '2021-05-05'
+level: 4
+slug: []
+categories: []
+tags: []
+draft: no
+quiz: https://classroom.google.com/c/MzM4MTMyMTU4Mjgy/a/MzU2OTU4NDYwNjI4/details
+---
+
+In the [level 3 discussions](../level-3/) you argued for a particular topic to be the recipient of the prestigious Harden prize. You also heard form your peers and found synergies between your topics.
+
+Your task now is to create a one-page proposal for the work you are going to undertake to make an impact on how well we understand the process. You should think about the following:
+
+* What is not well known? What do you want to know?
+* What do you want to find out? 
+* What do you need to measure?
+* Where do you want to measure it?
+* What other resources will you need?
+* What difficulties do you envision in executing your plan?
