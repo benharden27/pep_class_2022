@@ -1,5 +1,5 @@
 ---
-title: 'Real-world data'
+title: 'Real-world application'
 author: Ben Harden
 date: '2021-05-05'
 level: 2
@@ -15,29 +15,22 @@ knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 library(tidyverse)
 ```
 
-Now that we're familiar with some of the basic physical properties of the water, we're going to move on to discuss profiles. These are taken by any device that can move up and down in the water. Traditionally this would be using a shipboard CTD (Conductivity, Temperature, Salinity) device.
-
-## Reading
-
-Watch this video of a CTD in action (made as part of a video blog from a cruise I was on in 2012):
-
-<iframe src="https://player.vimeo.com/video/28984682" width="800" height="450" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-
-And review [this information on a CTD](https://www.whoi.edu/what-we-do/explore/instruments/instruments-sensors-samplers/conductivity-temperature-depth-ctd-sensors/)
-
-Review the ocean surface water properties from this section of Segar 
-- [Chapter 7](https://www.reefimages.com/oceans/SegarOcean4Chap07.pdf): 
-    + Climate and Ocean Surface Water Properties (pg. 154-157). These sections covers the input and removal of heat and water from the ocean.
+Now that we're familiar with some of the basic properties of the ocean, we're going to move on to apply these ideas to some real world data and applications. At any point, you should feel empowered to visit (or revisit) the [level 1](../level-1/) page to review the background concepts.
     
-## Assignment
+Each topic has some real data and an exercise to complete. I can sign you off on the level in two ways: If you would like to write your answers, you can upload your responses to the Google Classroom for me to review. Alternatively, you can give me a verbal report once you feel confident on the topics. As with all levels, you will have a chance to review feedback and submit again. 
+
+Once a good number of you have worked on these ideas, I will also be going over these activities explictly in class. 
+
+The final activity for this level is to research a real-world implication of one of these topics. We'll bring these together for a class discussion.
+    
+## Temperature, Salinity and Density
 
 We saw maps of the surface distribution of temperature and salinity in the Segar reading. That reading also discussed why the patterns are the way they are. Below are comparable figures from the World Ocean Circulation Experiment (WOCE) for your reference.
 
 ![](woce_surf_temp.png)
 
 ![](woce_surf_sal.png)
-
-The following image shows five vertical profiles of temperature, salinity and density from around the world. These were all taken from a ship using a CTD at locations shown on the map below. I have labeled all the profiles as letters and shown you all the positions as number, but I haven't matched them up.
+The following image shows five vertical profiles of temperature, salinity and density from around the world. These were all taken from a ship using a CTD at locations shown on the map below. I have labeled all the profiles as letters and shown you all the positions as numbers, but I haven't matched them up.
 
 ```{r profiles}
 df <- read_csv("profiles.csv")
@@ -89,10 +82,62 @@ group_by(df, Cruise) %>%
 
 * Q1: Use the WOCE surface temperature and salinity maps (above) to match the profiles up to their locations based on the surface temperature and salinity in the profiles.
 
-* Q2: Which profile/regions have the strongest and weakest pycnoclines? Why?
+* Q2: Which profile/regions have the strongest and weakest pycnoclines? Why? 
 
-## Next Steps
+* Q3: What consequences do you think this has for the vertical motion of water in these locations?
 
-Submit your answers on the Google Classroom assignment below. Then click the "Level Complete" button to inform your instructors that you've completed the level and need feedback. Wait for feedback before moving on to [Level 3](../level-3).
 
+## Phytoplankton, Nutrients and Light
+
+The following are two profiles of light (left) and fluoroesence (right) in the open ocean somewhere in the South Pacific. Fluoroesence if a measure of the amount of chlorophyll-a in the water and is commonly used as a proxy for how much phytoplankton is around. Don't worry too much about the units for now.
+
+```{r}
+
+vars <- c(par = "Light Availabilty (V)",
+          sigtheta = "Density (kg/m3)",
+          fluor = "Fluoresence (V)") 
+          
+
+read_csv("S285-044.csv") %>%
+  filter(!is.na(dep)) %>%
+  pivot_longer(c(par, fluor,sigtheta)) %>%
+  ggplot(aes(value, dep)) +
+  geom_path() +
+  geom_hline(yintercept = 0, color = "grey50") +
+  facet_wrap(~factor(name, names(vars)), 
+             nrow = 1, scales = "free_x",
+             strip.position = "bottom", 
+             labeller = as_labeller(vars)) +
+  scale_y_reverse(breaks = seq(0,400,50)) +
+  coord_cartesian(ylim = c(400,0)) +
+  labs(x = NULL, y = "Depth (m)") +
+  theme_minimal() +
+  theme(strip.background = element_blank(),
+        strip.placement = "outside",
+        strip.text = element_text(size = 10),
+        axis.line =  element_line(size = .2),
+        panel.grid.major = element_line(color = "grey50", size = .2),
+        panel.spacing = unit(1, "cm"))
+```
+
+Q4: Look first at the light curve: where is there the most light and at what depth is there essentially no light in the ocean.
+
+Q5: Look at the density plot: How deep is the mixed layer?
+
+Q6: Assuming there are no available nutrients in the mixed-layer and that nutrient availabilty increases below the pycnocline, explain why most phytoplankton (fluoroesence) are found around 100 m in the ocean.
+
+## Oxygen and Carbon
+
+
+
+
+## Zooplankton
+
+ID game
+
+DVM 
+
+## Research Topic
+
+Now that we've got a handle on some key concepts, it's time to apply this understanding to real-world environmental topics. 
 
