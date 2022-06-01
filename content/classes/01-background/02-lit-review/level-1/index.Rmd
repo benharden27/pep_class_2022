@@ -1,5 +1,5 @@
 ---
-title: "Phytoplankton 101"
+title: "Introduction to Papers"
 author: Ben Harden
 date: '2021-05-05'
 level: 1
@@ -7,28 +7,75 @@ slug: []
 categories: []
 tags: []
 draft: no
-quiz: https://docs.google.com/forms/d/e/1FAIpQLSf7Zz7rEL83t8jAjV1gI7AaYeZdF7Rm4sJnb2DscypG4FdNUA/viewform?usp=sf_link
-quiz_text: "Test Your Understanding"
 ---
 
-Phytoplankton are the base of many food webs in the ocean. They are single-celled plant-like organisms that typically get their energy from sunlight. They exists throughout the world's oceans, primarily in the upper sunlit portion.
+Scientific papers are technical documents written by, and for, scientists in a particular field documenting the research they undertook and the results and conclusions they arrived at.
 
-In this topic we are going to familiarize ourselves with phytoplankton and explore some of the factors that affect their abundance and geographic distribution.
+They can be daunting to read and no one is recommending you start at the beginning and slog your way to the end. The key thing is to know why you are reading the paper in the first place. Have a goal in mind that will help you focus on a particular section or message.
 
-## Reading
+You could be reading the paper because:
 
-To get started, let's learn about what they are and what they need.
+- You want to find out the importance of the field or want to know what is currently known about the topic (most of which can be found in the introduction)
 
-Watch this accessible intro to phytoplankton
+- You are looking for more similar papers to give you an overview of the field (also the introduction)
 
-<iframe width="800" height="450" src="https://www.youtube.com/embed/fS422O4SLc4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+- You want a quick look at the what they found (abstract, conclusions)
 
-Read the following from [Segar](https://www.reefimages.com/oceansci.php):
+- You need to check or reproduce a method (methods)
 
-* [Chapter 12](https://www.reefimages.com/oceans/SegarOcean4Chap12.pdf): only pg 287 - 296 (up to the end of the "Iron" section).
+- You want to scrutinize the data they are presenting or understand it for use in another project (results)
 
-## Test Your Understanding
+- You want want to understand where the unknowns in the field are (introduction, discussion)
 
-Take the following quiz to check your understanding. You can move on to [Level 2](../level-2/) if you get 4 or more correct. If not, please review the content, ask your peers for help, and retake quiz.
+This level contains a selection of resources to help you both find and read scientific papers that will be useful to your project. Another big resource will be your peers - many of you will have skills and specific tricks on this so I encourage you to share with each other. 
 
-Once you're done with the quiz, click the "Level Complete" button to tell your instructors that you've completed the level.
+## Reading a paper
+
+Here are some resources to read about how to read papers.
+
+* An overview of a research paper and how you might go about reading it
+
+ <iframe src="intro_to_papers.pdf" width="100%" height="700"></iframe>
+ 
+* A good overview of reading a paper by Dr Cassidy D'Aloia
+ 
+<iframe src="paper_guide.pdf" width="100%" height="700"></iframe>
+  
+* Some [good insights](https://www.sciencemag.org/careers/2016/03/how-seriously-read-scientific-paper) from scientists about how they (really) read papers.
+
+### Practice [optional]
+
+If you would like to practice these skills then I'm including a paper here: ["On the Seasonal Distribution of Temperature and Salinity in Rhode Island Sound"](Shonting_et_al-1970-Limnology_and_Oceanography.pdf) by Shonting and Cook.
+
+Your goal here is pretty tangible: You have just embarked on a research cruise to [Rhode Island Sound](https://en.wikipedia.org/wiki/Rhode_Island_Sound) in June. We are going to use this paper as a tool to contextualize the environment we sampled.
+
+Start with the abstract and introduction to give yourself a feel for what the paper is about and what context it fits into. Review the rest of the paper and answer the following as best you can. I've posted example answers to Google Classroom for you to compare to yours if you like:
+
+1. What do we learn in this paper about the kinds of oceanic conditions we might expect to find in this region in June?
+
+2. What processes occur through the year and geographically in the region which shape that environment?
+
+3. Pick another property we've been looking at in class (i.e. phytoplankton, oxygen, nutrients, etc.) What might you speculate about the impact of these physical environments on this property?
+
+Remember, you may not have to read the whole paper to feel confident to answer the questions above. The goal here is to practice extracting particular pieces of information that are relevant to you from a broader study.
+
+You should feel empowered to work through this paper with your peers for support. Discussion among yourselves will be a great way to build your understanding.
+
+
+## Finding more papers
+
+Once you're familiar with how to read a paper, your background research for any project will involve gathering together a variety of papers to build the picture of what is known (and what isn't known) in the field.
+
+Some suggestions:
+
+* You can read a general overview of what you might need to do [here](https://www.thoughtco.com/journal-articles-1857182)
+
+* One of the best ways to find relevant papers is to look up papers cited in the introductions of other relevant papers. Using this method, you only need to find one relevant paper and you can unlock a whole trove of literature. Note - this method will only get you papers that were written before the current one. See next tip for how to look forward too.
+
+* [Google Scholar](https://scholar.google.com/) is a great resource for searching for papers. Search for key words or authors and you should find lots of resources. Once you find a resource, it also lists not only the papers cited, but also the papers that cited it. This allows you to look forward in time to more modern papers. This is particularly useful when you original paper is an old "classic".
+
+* To get actuall access to papers, you have the [MBL WHOI Library](https://mblwhoilibrary.org/). This online (and in person) resource has searchable databases of journal articles and importantly will give you links to access the papers. If you go through other search tools up may end up at a paywall. 
+
+* Realistically, your searching will probably be some combination of the above.
+
+You will get a chance to practice these skills in [Level 2](../level-2).

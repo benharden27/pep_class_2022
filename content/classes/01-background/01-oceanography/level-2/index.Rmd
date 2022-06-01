@@ -19,9 +19,7 @@ Now that we're familiar with some of the basic properties of the ocean, we're go
     
 Each topic has some real data and an exercise to complete. I can sign you off on the level in two ways: If you would like to write your answers, you can upload your responses to the Google Classroom for me to review. Alternatively, you can give me a verbal report once you feel confident on the topics. As with all levels, you will have a chance to review feedback and submit again. 
 
-Once a good number of you have worked on these ideas, I will also be going over these activities explictly in class. 
-
-The final activity for this level is to research a real-world implication of one of these topics. We'll bring these together for a class discussion.
+Once a good number of you have worked on these ideas, I will also be going over these activities explicitly in class.
     
 ## Temperature, Salinity and Density
 
@@ -87,20 +85,21 @@ group_by(df, Cruise) %>%
 * Q3: What consequences do you think this has for the vertical motion of water in these locations?
 
 
-## Phytoplankton, Nutrients and Light
+## Phytoplankton, Nutrients, and Light.
 
-The following are two profiles of light (left) and fluoroesence (right) in the open ocean somewhere in the South Pacific. Fluoroesence if a measure of the amount of chlorophyll-a in the water and is commonly used as a proxy for how much phytoplankton is around. Don't worry too much about the units for now.
+The following are profiles of ocean properties in the open ocean somewhere in the South Pacific. From left we have Light availability, Density, Fluoroesence (a measure of the amount of chlorophyll-a in the water and is commonly used as a proxy for how much phytoplankton is around) and Dissolved Oxygen.
 
 ```{r}
 
 vars <- c(par = "Light Availabilty (V)",
           sigtheta = "Density (kg/m3)",
-          fluor = "Fluoresence (V)") 
+          fluor = "Fluoresence (V)",
+          oxygen = "Oxygen") 
           
 
 read_csv("S285-044.csv") %>%
-  filter(!is.na(dep)) %>%
-  pivot_longer(c(par, fluor,sigtheta)) %>%
+  filter(!is.na(dep) & dep <350) %>%
+  pivot_longer(c(par, fluor,sigtheta, oxygen)) %>%
   ggplot(aes(value, dep)) +
   geom_path() +
   geom_hline(yintercept = 0, color = "grey50") +
@@ -109,7 +108,7 @@ read_csv("S285-044.csv") %>%
              strip.position = "bottom", 
              labeller = as_labeller(vars)) +
   scale_y_reverse(breaks = seq(0,400,50)) +
-  coord_cartesian(ylim = c(400,0)) +
+  coord_cartesian(ylim = c(300,0)) +
   labs(x = NULL, y = "Depth (m)") +
   theme_minimal() +
   theme(strip.background = element_blank(),
@@ -124,20 +123,40 @@ Q4: Look first at the light curve: where is there the most light and at what dep
 
 Q5: Look at the density plot: How deep is the mixed layer?
 
-Q6: Assuming there are no available nutrients in the mixed-layer and that nutrient availabilty increases below the pycnocline, explain why most phytoplankton (fluoroesence) are found around 100 m in the ocean.
+Q6: Assuming there are no available nutrients in the mixed-layer and that nutrient availability increases below the pycnocline, explain why most phytoplankton (fluoroesence) are found around 100 m in the ocean.
 
-## Oxygen and Carbon
-
-
-
+Q7: Use the above answers and what you know about the processes by which oxygen enters the ocean to explain the shape of the oxygen curve. Where are values high/low and why is that?
 
 ## Zooplankton
 
-ID game
+The following is some cruise data collected to the east of the Carribean. Each point represents a location where a surface net was towed from the research vessel. The amount of zooplankton collected in the net is represented by the size of the circle and the color indicates whether the sample was collected during the day or at night.
 
-DVM 
+```{r}
+df <- read_csv("C282_neuston.csv") %>%
+  mutate(daynight = ifelse(lubridate::hour(dttm_in) > 6 & lubridate::hour(dttm_in) < 18, "day", "night")) %>%
+  filter(lon > -57)
 
-## Research Topic
+ybreaks <- seq(10,20,2)
+ylabels <- paste0(abs(ybreaks), "°N")
 
-Now that we've got a handle on some key concepts, it's time to apply this understanding to real-world environmental topics. 
+xbreaks <- seq(-66,-54,2)
+xlabels <- paste0(abs(xbreaks), "°W")
+
+
+ggplot(df, aes(lon,lat)) +
+  geom_point(aes(size = biodens*1000, color = daynight)) +
+  geom_polygon(aes(long, lat, group = group), data = map_data("world")) +
+  coord_quickmap(xlim = c(-65,-55), ylim = c(10,20)) +
+  labs(x= NULL, y = NULL,
+       color = NULL,
+       size = "Zooplankton (µl/m2)") +
+  scale_y_continuous(breaks = ybreaks, labels = ylabels) +
+  scale_x_continuous(breaks = xbreaks, labels = xlabels) +
+  theme_bw()
+
+```
+Q8: In general, were more zooplankton collected during the day or during the night? What could explain that pattern?
+
+Q9: Does the pattern hold true in all regions? If not, why might this be?
+
 
