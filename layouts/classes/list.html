@@ -10,11 +10,6 @@
 		
 		{{ .Content }}
 		
-		<div class = "exit-button clearfix">
-        <a href="https://docs.google.com/spreadsheets/d/1GAB9QaVKly3zF5kIgzQJEPNk_GXYyEcbsZslqJgY76w/edit?usp=sharing" target="_blank" rel="noopener noreferrer" class="w3-button w3-green float-right">Progress Tracker</a>
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLScZoKgLz-ey-MJ2KEyzyW7ByYkDt6C2VwkaEcpj4q4m5LTobw/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer" class="w3-button w3-blue">Daily Check-in (by 11:30am)</a>
-      </div>
-		
 
     <div class="w3-bar w3-light-gray">
       {{ range sort .Sections ".Params.weight"}}
@@ -24,7 +19,9 @@
     
       {{ range sort .Sections ".Params.weight"}}
         
-        <div class = "section-tab" id = {{ lower (replace .Title " " "-")}} style = "display: {{ if eq (lower (replace .Title " " "-")) "oceanography"}}inline{{else}}none{{end}}">
+        <div class = "section-tab" id = {{ lower (replace .Title " " "-")}} style = "display: {{ if eq (lower (replace .Title " " "-")) "background-presentations"}}inline{{else}}none{{end}}">
+        
+        <h2>{{ .Title }}</h2>
         
         {{ range sort .Sections ".Params.weight"}}
         {{ if gt (len .Pages) 0 }}

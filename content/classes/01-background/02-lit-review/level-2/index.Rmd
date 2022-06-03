@@ -7,6 +7,7 @@ slug: []
 categories: []
 tags: []
 draft: no
+quiz: https://classroom.google.com/c/NDg3ODE3MzU4NzEw/a/NDg3ODE4MzQyMjA2/details
 ---
 
 We should have a pretty good idea now how to read a paper and some general insight into how and where to find additional ones.
@@ -41,8 +42,10 @@ You can collaborate on this work in your research topic teams and share resource
 You need to use your searching and reading skills to:
 
 * Write a goal sentence - what are you wanting to find out from your papers?
-* Find 4-5 papers that help you reach that goal in the region of interest. At least two should be unique from your peers.
+* Find 3-5 papers that help you reach that goal in the region of interest. At least two should be unique from your peers.
 * Read the as much of the papers as you need to reach your stated goal
 * Create a list of properly formatted references to the papers
 * Write 2 or 3 sentences after each describing what the paper shows and how it is useful to your project
+
+You can find an example annotated bibliography [here](https://classroom.google.com/c/NDg3ODE3MzU4NzEw/m/NDg3ODE4MDY2ODEw/details)
 

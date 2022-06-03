@@ -1,4 +1,0 @@
----
-title: "Oral Presentation"
-weight: 4
----
