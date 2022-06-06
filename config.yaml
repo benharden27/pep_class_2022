@@ -31,14 +31,8 @@ menu:
     - name: Classes
       url: /classes
       weight: 2
-    - name: Schedule
-      url: /calendar
-      weight: 3
-    - name: Cruise
-      url: /cruise]
-      weight: 4
     - name: Syllabus
-      url: /docs/PEP2021_syllabus.pdf
+      url: /docs/PEP2022_syllabus.pdf
       weight: 7
 taxonomies:
   tag: tags
