@@ -7,7 +7,7 @@ slug: []
 categories: []
 tags: []
 draft: no
-quiz: https://classroom.google.com/c/MzM4MTMyMTU4Mjgy/a/MzQ5ODM0MjEzODcx/details
+quiz: https://classroom.google.com/c/NDg3ODE3MzU4NzEw/a/NDg3ODE4MzQyMTA5/details
 ---
 
 ```{r setup, include=FALSE}

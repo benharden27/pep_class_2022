@@ -4,6 +4,6 @@ title: Hello
 
 # Welcome {-}
 
-Welcome to the PEP Class 2021. The goal of this class is to prepare students to address questions pertinent to Global Climate Change within the Ocean and Environmental Sciences. The course will run over four weeks from June 1 to June 25 and complements a research internship with a scientist from the Woods Hole Science community by building a foundation of concepts and skills required to be a successful researcher.
+Welcome to the PEP Class 2022. The goal of this class is to prepare students to address questions pertinent to Global Climate Change within the Ocean and Environmental Sciences. The course will run over four weeks from June 6 to July 1 and complements a research internship with a scientist from the Woods Hole Science community by building a foundation of concepts and skills required to be a successful researcher.
 
 ![Photo by Matthew Barton, Woods Hole Oceanographic Institution](images/woods_hole_village.jpg)

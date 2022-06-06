@@ -32,7 +32,7 @@ The class will be mostly **flexibly-paced**, meaning you are largely free to mov
 * Collaborate with your peers at times that suit you
 * Prepare for your research which will be intrinsically self-paced
 
-The only scheduled parts of the class will be various discussions, group meetings, check-ins, and guest speakers. More on that structure below and in the [calendar]().
+The only scheduled parts of the class will be various discussions, group meetings, check-ins, and guest speakers.
 
 Given your varied backgrounds and experiences, I will also be taking a **growth-based** approach to assessment. We will conference throughout the class to determine both your strengths and areas that you would like to grow in. This will allow us to set goals together for your success. See the class rubric for more information.
 
@@ -44,13 +44,13 @@ Finally, remember throughout: you belong here at PEP and in the Woods Hole scien
 
 I hope you will see this class as more than simply a requirement to gain a grade for college credit. It should be a useful tool for you to advance your thinking and skills around conducting research in environmental sciences. It should be directly relevant to the work you will be doing this summer as well as building a broader tool set for many careers in science.
 
-I expect you to use your time in the PEP class effectively. The flexible-paced mode will give you lots of opportunities to work when and how you like, but we do expect you to engage with all aspects. In-class time will be for 3 hours a day and expect to work an addition 1-2 hours a day to complete assignments and work at the weekend is also likely. Use your peers as a support network for things you are finding hard and to keep you accountable. 
+I expect you to use your time in the PEP class effectively. The flexible-paced model will give you lots of opportunities to work when and how you like, but we do expect you to engage with all aspects. In-class time will be for 3 hours a day and expect to work an addition 1-2 hours a day to complete assignments and work at the weekend is also likely. Use your peers as a support network for things you are finding hard and to keep you accountable. 
 
 I welcome your feedback (and will ask for it frequently) so please let me know how you are getting on and what isn't sticking and I will try and help you out. Please also let me know how long the classwork is taking you so we can make sure we are giving you space to grow without overloading you. Again, the growth-based format should allow us to tailor the work expectations to your goals.
 
 ## What you can expect from me
 
-I will be available for immediate feedback and discussion during the daily class period (9am-12pm, see below). Please speak up if you need our support, but be patient as we try to meet the needs of the whole PEP cohort. If there are enough questions or interest in a particular topic then we will arrange small group instruction.
+I will be available for immediate feedback and discussion during the daily class period (9am-12pm, see below). Please speak up if you need my support, but be patient as we try to meet the needs of the whole PEP cohort. If there are enough questions or interest in a particular topic then we will arrange small group instruction.
 
 Outside the class window I will also be available to answer questions and give feedback. Please contact me through Slack and I will get back to you as soon as I am able. Again, please be patient, but persistent.
 
@@ -60,17 +60,15 @@ OK, so on to the nuts-and-bolts.
 
 We're going to be framing all of our learning around one team-based research project. Your project team will examine data collected on our research cruise at the start of the program and follow a similar structure to that of your summer-long research internship.
 
-To break this research process down, we will be focusing on the following assignments and associated skill sets:
+To break this research process down, we will be focusing on the following modules and associated skill sets:
 
 * **Background Presentation**
   * Understanding key oceanographic concepts
   * Reading papers and building a bibliography
-  * Structuring an introduction
-  * Delivering an oral presentation
+  * Structuring and delivering an oral presentation
   
 * **Data Report**
   * Visualizing data in R
-  * Determining appropriate plot types
   * Testing hypotheses
   * Writing a report
   
@@ -84,35 +82,27 @@ To break this research process down, we will be focusing on the following assign
   * Collaborating with others
   * Placing your science in the community
 
-At the beginning of the class I will ask you to reflect on your experiences and comfort with each of these skills. That will form the basis of our initial discussion of how you would like to grow.
+At the beginning of the class I will ask you to reflect on your experiences and comfort with each of these skills on a self-assessment rubric. That will form the basis of our initial discussion of how you would like to grow.
 
 You can see the full list of topics, modules and levels on the [classes](../classes/) page.
 
 ### Levels
 
-Each skill in assignment has four associated levels to achieve. In most scenarios thse levels will look like this: 
+Each skill has three associated levels to achieve. In most scenarios these levels will look like this: 
 
 Level 1: Typically a level to expose you to the skill/topic in question. If you are new to this skill or could use a refresher then this will be your starting point. It will often involve some self-guided readings/presentations and an opportunity to test your understanding. 
 
-Level 2: This level will typocally ask you to apply the skill in a new, real-world scenario. Success at this level is where I would hope most of you can get to in each of the skills by the end of the class. 
+Level 2: This level will typically ask you to apply the skill in a new, real-world scenario. Success at this level is where I would hope most of you can get to in each of the skills by the end of the class. 
 
 Level 3: This is a level that will often ask you to extend your skill set into more complex scenarios, incorporating new information, and undertaking revisions.
-
-Level 4: This is an advanced level that will be constructed in conference with me if you are clearly demonstrating mastery at level 3 due to previous experiences.
 
 ### Grades
 
 At the beginning of the class I will ask you to review the class skills rubric. Once you are clear on the expectations of each level I will ask you to assess you current attainment level with each. This might vary a lot over the range of topics, but please be honest - zero experience is a totally acceptable answer: we are not here to judge you, only to help you be successful.
 
-As stated above, my goal for this class is to have everyone achieve level 2 status in all skills by the end. After you've assessed where you are, I'm going to ask you make a plan for where you'd like to be. For those with less experience that might be bringing yourself up to Level 2 across the board. For others with broader experience it may be selecting a few skills to advance to level 3 or 4. For most of you it will probably be some combination of bringing some new skills to level 2 whilst progressing established skills.
+As stated above, my goal for this class is to have everyone achieve level 2 status in all skills by the end. After you've assessed where you are, I'm going to ask you make a plan for where you'd like to be. For those with less experience that might be bringing yourself up to Level 2 across the board. For others with broader experience it may be selecting a few skills to advance to level 3. For most of you it will probably be some combination of bringing some new skills to level 2 whilst progressing established skills.
 
-Once you've completed this self-assessment, I'll work with you to determine if your plan is achievable. We'll have a chance to review this mid-term, but the basic idea is that if you meet the goals set out then it's an A. Partial fulfillment is a b, and little demonstrated progress a C.
-
-### Staying On-pace
-
-You are free to move at a pace that suits you for the most part. However, there will be a number of fixed-point assessments, discussions and presentations. These will be generally tied to the completion of each assignment - you should keep an eye on the dates/times of these so you can make sure you move through your levels in time to fully participate.
-
-To help you there will be a **public tracker** that will show which levels you and your peers have completed. It will also have a "pace-setter" - my sense of where you should be in any module on any day to be ready for the fixed-point activities. Please use this to help you gauge what you might need to do next and to see which of your peers might be able to help you with work if you are stuck.
+Once you've completed this self-assessment, I'll work with you to determine an achievable plan. We'll have a chance to review this mid-term, but the basic idea is that if you meet the goals set out then it's an A. Partial fulfillment is a B and little/no demonstrated progress a C.
 
 ### Class Times and Your Research Internship
 
@@ -141,10 +131,6 @@ Please contact us through Slack if you have questions or need assistance.
 ### RStudio Cloud
 
 We are going to be using a programming language called R for our data visualization work. To make this easy for me to help you, and for you to share your code with me, we are going to be doing this work on a cloud version of the software. You will need to go to <https://rstudio.cloud/> to sign up for a free account. I will then send you a link to my classroom for you to join. We'll talk more about how to use this platform in class.
-
-### Google Drive
-
-You will have also received an email about a Google Drive folder that has been set up for you at SEA. Please use this to store any work related items that you need in one place or want to share with others. This is also a good place to back-up your work. We will also be putting various documents in here for you if we need to.
 
 ## Resources/Texts
 
