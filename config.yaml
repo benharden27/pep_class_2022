@@ -34,8 +34,11 @@ menu:
     - name: Calendar
       url: /calendar
       weight: 3
+    - name: Skills Rubric
+      url: /docs/pep2022_skills_rubric.pdf
+      weight: 4
     - name: Syllabus
-      url: /docs/PEP2022_syllabus.pdf
+      url: /docs/pep2022_syllabus.pdf
       weight: 7
 taxonomies:
   tag: tags
