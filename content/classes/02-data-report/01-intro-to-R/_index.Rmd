@@ -1,4 +1,5 @@
 ---
-title: "Plotting in R"
+title: "Vizualization in R"
 weight: 1
+draft: no
 ---

@@ -1,5 +1,5 @@
 ---
-title: 'Extending ideas'
+title: 'More Plotting Tools'
 author: Ben Harden
 date: '2021-05-05'
 level: 3
@@ -12,67 +12,98 @@ draft: no
 <script src="{{< blogdown/postref >}}index_files/header-attrs/header-attrs.js"></script>
 
 
-<p>Now that you’re comfortable with the main oceanographic concepts it’s time to extend your thoughts in one of the areas.</p>
-<p>Based on your interest, you should select one of the following sections to explore in more detail. You should review the content and answer the questions. Then either come see me to discuss or submit your answers on Google Classroom.</p>
-<div id="seasonal-temperature-profiles" class="section level2">
-<h2>1. Seasonal Temperature Profiles</h2>
-<p>The depth and properties of the mixed layer of the ocean does not stay the same throughout the year. The following image shows the development of the temperature profile between summer and winter for a science station in the North East Pacific Ocean (Station OWS Papa).</p>
-<pre class="r"><code>knitr::include_graphics(&quot;annual_cycle.jpg&quot;)</code></pre>
-<p><img src="annual_cycle.jpg" width="350px" /></p>
-<ol style="list-style-type: decimal">
-<li>Write down the depth and temperature of the mixed layer for each profile shown. How would you simply describe to trends from August to April in these values?</li>
-</ol>
-<p>Two major factors influence the changes in the depth and temperature of the mixed layer:</p>
+<p>This is a chance for you to extend your skills from the simple x-y plotting we saw in level 2.</p>
+<p>The <a href="https://nyu-cdsc.github.io/learningr/assets/data-visualization-2.1.pdf">ggplot cheatsheet</a> is a helpful document to have nearby. It lays out the geoms available to you and has some examples. It also helpfully groups the geoms into their use given the type of data. For example, a scatter plot made with <code>geom_point</code> is in the two-variables, x continuous, y continuous section. This means, we have two variables to plot against one another and both axes are numeric and can take any value.</p>
+<p>To give you a flavor of some other geoms, you should work your way through the <a href="https://rstudio.cloud/learn/primers/3">primers</a> for:</p>
 <ul>
-<li>A colder atmosphere will cool the surface layer. A warmer atmosphere will warm the surface layer.</li>
-<li>Stronger winds will drive more stirring in the upper water. Less wind will tend to allow waters to become more stratified.</li>
+<li><a href="https://rstudio.cloud/learn/primers/3.2">Bar Charts</a></li>
+<li><a href="https://rstudio.cloud/learn/primers/3.3">Histograms</a></li>
+<li><a href="https://rstudio.cloud/learn/primers/3.4">Box Plots and Counts</a></li>
 </ul>
-<p>As we move from the summer to the winter, the winds get progressively <strong>stronger</strong> and <strong>colder</strong>.</p>
-<ol start="2" style="list-style-type: decimal">
-<li>Can you use this information to describe and explain the evolution of the mixed layer from Summer to Winter?</li>
-</ol>
-<p>Below 120 m there is little change in temperature between seasons.</p>
-<ol start="3" style="list-style-type: decimal">
-<li><p>Why is this?</p></li>
-<li><p>How do you expect the evolution of the mixed layer to impact other oceanographic properties such as surface nutrient availability and oxygen content?</p></li>
-</ol>
+<div id="exercise" class="section level2">
+<h2>Exercise</h2>
+<p>You goal in this level is to create multiple plots, experiment with geoms, and add complexity using other aesthetics like color and shape. You should create a new project to experiment in and share your results with me so I can provide feedback and give you an opportunity to revise. Your plotting goals should be guided by your project interests - we can chat if you need input on ideas of what to plot.</p>
 </div>
-<div id="global-phytoplankton-growth" class="section level2">
-<h2>2. Global Phytoplankton Growth</h2>
-<p>We’ve looked at some of the factors that influence phytoplankton growth: primarily their access to light and nutrients. We’re now going to explore how that changes around the planet.</p>
-<p>The following is a brief explanation of some of the processes that impact phytoplankton growth around the world, primarily mid-latitude seasonality, upwelling/downwelling, and terrestrial sources.</p>
-<div style="padding:75% 0 0 0;position:relative;">
-<iframe src="https://player.vimeo.com/video/557703782?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="scripting.mp4">
-</iframe>
+<div id="some-ideas" class="section level2">
+<h2>Some ideas</h2>
+<p>I’m going to go through a few examples of things you could experiment with in creating these plots:</p>
+<div id="set-up" class="section level3">
+<h3>Set up</h3>
+<p>As always, start with activating the packages you’re going to need. As a shorthand now I’m just going to load the tidyverse which loads all the contained packages.</p>
+<pre class="r"><code>library(tidyverse)</code></pre>
 </div>
-<script src="https://player.vimeo.com/api/player.js"></script>
-<p>Let’s apply some of these idea to a global map of phytoplankton distribution. The following is an figure produced by a satellite that can map surface quantities of phytoplankton by measuring the color of the ocean. This particular map is an average of three years of measurements so averages through all seasons of the year.</p>
-<p>Green/yellow/red colors indicate more pythoplankton and blue/purple show less phytoplankton.</p>
-<div class="full-width">
-<p><img src="surface_phyto.jpg" /></p>
+<div id="loading-data" class="section level3">
+<h3>Loading data</h3>
+<p>I’m going to use a dataset that has multiple CTD profiles in it. You can get this data here: <a href="profiles.csv">profiles.csv</a>.</p>
+<p>First, I’ll read in the data:</p>
+<pre class="r"><code>profiles &lt;- read_csv(&quot;profiles.csv&quot;)</code></pre>
+<p>Again, this data will be added to our environment and we can click on it to see the details of the data. If you scroll down, you can see that there are now 5 distinct profiles in this data set with columns the same as in <a href="../level-2/">Level 2</a>:</p>
+<ul>
+<li>Cruise: Unique identifier for the cruise (oceanographic expedition) on which the data was gathered - there are five different cruises in this data</li>
+<li>Station: Unique station number (i.e. ID of location where the ship stopped to take the measurements)</li>
+<li>lon: Longitude (decimal degrees east)</li>
+<li>lat: Latitude (decimal degrees north)</li>
+<li>z: Depth (m)</li>
+<li>pres: Pressure (dbar)</li>
+<li>temp: Temperature (°C)</li>
+<li>sal: Salinity</li>
+<li>theta: Potential Temperature (°C) - the temperature the water would be if it was raised to the surface. This accounts for the slight cooling effect of increased pressure</li>
+<li>sigma: Potential Density (kgm<sup>-</sup>3)</li>
+</ul>
 </div>
-<p>Think about and answer the following questions:</p>
-<ol style="list-style-type: decimal">
-<li><p>Where are phytoplankton found in large amounts? Where are there fewer?</p></li>
-<li><p>Which of the processes described above could explain the patterns you are seeing in different regions?</p></li>
-</ol>
-<p>The following is a map of surface nitrate:</p>
-<div class="full-width">
-<p><img src="surf-nitrate.png" /></p>
+<div id="grouping-data" class="section level3">
+<h3>Grouping data</h3>
+<p>This is going to be about plotting multiple similar data on the same plot. To demonstrate this, we can make a similar plot to that which we did in <a href="../level-2/">Level 2</a>, plotting temperature against depth, but this time including all five profiles</p>
+<pre class="r"><code>ggplot(profiles) +
+  geom_path(aes(temp, z)) +
+  scale_y_reverse()</code></pre>
+<p><img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-3-1.png" width="672" /></p>
+<p>You can probably see now that there are 5 profiles, but ggplot has tried to join all the ends up to each other to make a continuous data plot. Pretty ugly.</p>
+<p>We can get around this in a number of ways. For example, we could use points:</p>
+<pre class="r"><code>ggplot(profiles) +
+  geom_point(aes(temp, z)) +
+  scale_y_reverse()</code></pre>
+<p><img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-4-1.png" width="672" /></p>
+<p>But it would be nice to have profiles be more distinct than this. A better solution might be to map the cruise or station name to another aesthetic.</p>
+<p>One we can try is the “group” aseethetic which just tells ggplot to treat the whole data set as a bunch of smaller data sets depending on the value of, in our case, Cruise:</p>
+<pre class="r"><code>ggplot(profiles) +
+  geom_path(aes(temp, z, group = Cruise)) +
+  scale_y_reverse()</code></pre>
+<p><img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-5-1.png" width="672" /></p>
+<p>Now you can see that each profile is distinct and easy to distinguish from the others. However, an even smarter move might be to make each of them different colors by using the “color” aesthetic.</p>
+<pre class="r"><code>ggplot(profiles) +
+  geom_path(aes(temp, z, color = Cruise)) +
+  scale_y_reverse()</code></pre>
+<p><img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-6-1.png" width="672" /></p>
+<p>And look at that! ggplot has even created a handy legend for us so we can tell which is which.</p>
 </div>
-<ol start="3" style="list-style-type: decimal">
-<li>How well does the map of surface nitrate predict the amount of phytoplankton in the global map? What regions predict this poorly and why?</li>
-</ol>
+<div id="adding-additional-variables" class="section level3">
+<h3>Adding additional variables</h3>
+<p>In some cases, you might want to add color in a way that adds a new parameter into the plot. Perhaps if I wanted to plot temperature against depth, but now have the points of the profile be colored according to salinity. I might use the same technique as above, but with different results:</p>
+<pre class="r"><code>ggplot(profiles) +
+  geom_point(aes(temp, z, color = sal)) +
+  scale_y_reverse()</code></pre>
+<p><img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-7-1.png" width="672" /></p>
+<p>Its not a great plot, but one thing that I want to note here is that because salinity is a numeric variable, ggplot has mapped it to a color gradient in the legend rather than as discrete colors as it did when we mapped Cruise to color.</p>
 </div>
-<div id="more-on-the-carbon-pump" class="section level2">
-<h2>3. More on the Carbon Pump</h2>
-<p>The oceanic carbon pumps are not quite as simple as we’ve been discussing so far. Along with the standard biological pump where detritus falls to the depths by gravity, there are a few nuanced additions to the way the ocean moves carbon from the surface to the deep ocean.</p>
-<p>This is nicely summarized in the following article:</p>
-<p><a href="s41586-019-1098-2.pdf">Multi-faceted particle pumps drive carbon sequestration in the ocean</a> by Philip W. Boyd, Hervé Claustre, Marina Levy, David A. Siegel &amp; Thomas Weber</p>
-<p>Read the paper above and think about the following questions:</p>
-<ol style="list-style-type: decimal">
-<li><p>What tools have scientists traditionally used to measure the biological pump?</p></li>
-<li><p>What additional pumps exist in the ocean?</p></li>
-<li><p>How important a role might they play in the overall amount of carbon that reaches the deep ocean?</p></li>
-</ol>
+</div>
+<div id="other-geoms" class="section level2">
+<h2>Other geoms</h2>
+<p>Some geoms you can work with include creating histograms to look at spread in data. In the example below, I’ve made a stacked histogram.</p>
+<pre class="r"><code>ggplot(profiles) +
+  geom_histogram(aes(temp, fill = Cruise), binwidth = 2) </code></pre>
+<p><img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-8-1.png" width="672" />
+But you can also put the bars next to each other using:</p>
+<pre class="r"><code>ggplot(profiles) +
+  geom_histogram(aes(temp, fill = Cruise),
+                 position = &quot;dodge&quot;, binwidth = 2) </code></pre>
+<p><img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-9-1.png" width="672" />
+As you saw in the primers above, we can also look at statistical spread of data in boxplots:</p>
+<pre class="r"><code>ggplot(profiles) +
+  geom_boxplot(aes(Cruise, temp)) </code></pre>
+<p><img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-10-1.png" width="672" />
+And we can always experiment with scatter plots of data plotting one variable against another, potentially with another variable as color too or a discrete value as shape. Or both:</p>
+<pre class="r"><code>ggplot(profiles) +
+  geom_point(aes(sal,temp, color = sigma, shape = Cruise)) </code></pre>
+<p><img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-11-1.png" width="672" /></p>
 </div>

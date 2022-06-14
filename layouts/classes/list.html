@@ -28,6 +28,8 @@
         
         <h2>{{ .Title }}</h2>
         
+        {{ .Content }}
+        
         {{ range sort .Sections ".Params.weight"}}
         {{ if gt (len .Pages) 0 }}
           <h4> {{ .Title }}</h4>
