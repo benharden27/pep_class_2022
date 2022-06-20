@@ -31,6 +31,9 @@ menu:
     - name: Classes
       url: /classes
       weight: 2
+    - name: Cruise Data
+      url: /cruise_data
+      weight: 2
     - name: Calendar
       url: /calendar
       weight: 3
