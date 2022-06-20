@@ -88,12 +88,12 @@ One note on this data is that the CTD file for the 001 station got corrupted on 
 
 I have included the data in a couple of formats. One data file contains all the available CTD casts in one csv. But I have also broken each cast out into their own file. I would recommend using these individual files when taking your first steps into R data vis although you may find the combined data easiest to use when approaching slightly less basic plotting
 
-* [CTD data (all)](data/C303B_ctd_all.csv)
+* [CTD data All](data/C303B_ctd_all.csv)
 
-* [CTD data (Station 2)](data/C303B_ctd_C303B-002.csv)
-* [CTD data (Station 3)](data/C303B_ctd_C303B-003.csv)
-* [CTD data (Station 4)](data/C303B_ctd_C303B-004.csv)
-* [CTD data (Station 5)](data/C303B_ctd_C303B-005.csv)
+* [CTD data Station 2](data/C303B_ctd_C303B-002.csv)
+* [CTD data Station 3](data/C303B_ctd_C303B-003.csv)
+* [CTD data Station 4](data/C303B_ctd_C303B-004.csv)
+* [CTD data Station 5](data/C303B_ctd_C303B-005.csv)
 
 
 The columns are:
@@ -119,13 +119,13 @@ As we lower the CTD we also lower the 12 niskin bottle of the carousel. We shut 
 
 As with the CTD data I've broken each cast out into it's own file (see above), but I've also included a combined data file which you might find it easier to use for more advance R plotting.
 
-* [Hydrowork (All)](data/C303B_hydro_all.csv)
+* [Hydrowork All](data/C303B_hydro_all.csv)
 
-* [Hydrowork (Staion 1)](data/C303B_hydro_C303B-001.csv)
-* [Hydrowork (Staion 2)](data/C303B_hydro_C303B-002.csv)
-* [Hydrowork (Staion 3)](data/C303B_hydro_C303B-003.csv)
-* [Hydrowork (Staion 4)](data/C303B_hydro_C303B-004.csv)
-* [Hydrowork (Staion 5)](data/C303B_hydro_C303B-005.csv)
+* [Hydrowork Staion 1](data/C303B_hydro_C303B-001.csv)
+* [Hydrowork Staion 2](data/C303B_hydro_C303B-002.csv)
+* [Hydrowork Staion 3](data/C303B_hydro_C303B-003.csv)
+* [Hydrowork Staion 4](data/C303B_hydro_C303B-004.csv)
+* [Hydrowork Staion 5](data/C303B_hydro_C303B-005.csv)
 
 
 The columns are:
