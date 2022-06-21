@@ -7,6 +7,7 @@ slug: []
 categories: []
 tags: []
 draft: no
+quiz: https://classroom.google.com/c/NDg3ODE3MzU4NzEw/a/NTI0ODY4Nzc3NjQw/details
 ---
 
 ```{r setup, include=FALSE}
@@ -153,3 +154,4 @@ To get signed off at Level 2, you will need to be able to show me an RStudio pro
 * Makes at least one plot with relevant axes and an appropriate geoms
 * Has comments that describe what each section of code is doing
 
+I can come see this on your computer or you can zip the project folder and submit to the assignment on Google Classroom below.
