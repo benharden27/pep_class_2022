@@ -14,8 +14,8 @@ If you are aiming for Level 3 at advanced poster design, the you goal is to move
 
 I will not be looking at content, only at design. I'll be mainly looking at:
 
-* How well your images are displayed - are they cropped and aligned well?
-* What colors you used and whether there is consistency throughout your poster
+* How well your images/figures are displayed - are they cropped and aligned well?
+* What colors you used and whether there is consistency and contrast throughout your poster
 * Whether the fonts are consistent and appropriate and if text boxes are well-aligned
 * The balance of white space in the poster and other spacing
 
