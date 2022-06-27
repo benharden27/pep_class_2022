@@ -153,6 +153,10 @@ There are a ton of columns in this data sheet - I haven't itemized them all belo
 Columns are:
 
 * station: Station number for the cruise
+* density: Surface Ocean Density (km/m3)
+* chla: Surface extracted chla content (mg/L)
+* po4: Phosphate Concentration (uMol)
+* pH: Ocean pH
 * dttm_in: Date and time net went in
 * dttm_out: Date and time net came out
 * lon: Longitude (decimal degrees east of 0)
