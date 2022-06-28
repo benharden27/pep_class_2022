@@ -20,7 +20,7 @@ You should go through this primer and run the code chunks as you go to make sure
 
 Once you've familiarized yourself with the information in the primer above, you should apply these tools to one of your visualizations.
 
-Pick a figure you have made in R and improve it by showing me **three** design tools in actions. This could be:
+Pick a figure you have made in R and improve it by showing me at least **two** design tools in actions. This could be:
 
 * Adding a theme
 * Adding labels or annotations
