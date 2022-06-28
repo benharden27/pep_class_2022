@@ -33,4 +33,4 @@ Once you have done this, you should submit the following to the assignment below
 
 * Your script
 * Your figure (can take screen shot or use ggsave() function)
-* A brief description of the three changes you made and why you think this improves the design of your figure in relation to what you read in level 1.
+* A brief description of the changes you made and why you think this improves the design of your figure in relation to what you read in level 1.
