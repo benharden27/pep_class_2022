@@ -33,9 +33,18 @@ Below are some poster examples.
 * [Poster 4](posters/poster4.jpg)
 * [Poster 5](posters/poster5.pdf)
 
-We will assign these posters in class to small goroiup discussions where we will think about:
+We will assign these posters in class to small group discussions where we will think about:
 
 * What is the audience for this poster?
 * How easy was it to get the general message? Why?
 * What design elements were effective?
 * What design elements were ineffective?
+
+FYI - here are a selection of previous PEP posters:
+
+* [Ocean Currents](pep_posters/currents.pdf)
+* [Geology](pep_posters/geology.pdf)
+* [Nutrients](pep_posters/nutrients.pdf)
+* [Phytoplankton](pep_posters/phytoplankton.pdf)
+* [Temperature and Salinity](pep_posters/temp_sal.pdf)
+* [Zooplankton](pep_posters/zooplankton.pdf)
